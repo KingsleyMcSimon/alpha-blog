@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        
+        body {
+            background-color: green;
+            
+        }
+        
+        .zion {
+           text-align: center;
+           font-size: 40px;
+           font-family: verdana;
+        }
+        
+        .zion1 {
+            font-size: 25px;
+            background-color: pink;
+            color: blue;
+        }
+        
+        #goodrecipe {
+            color: red;
+            background-color: white;
+            text-align: center;
+        }
+        
+         #goodrecipe0 {
+            color: green;
+            background-color: white;
+            text-align: center;
+        }
+        
+         #goodrecipe00 {
+            color: purple;
+            background-color: white;
+            text-align: center;
+        }
+        
+        </style>
+    </head>
+    <body>
+       
+        <h1 class="zion"> <a href="#goodrecipe2">Zion's Recipe Book</a> </h1>
+
+        <%= link_to 'Home', 'home' %>
+        <%= link_to 'About', 'about' %>
+        <%= link_to 'Services', 'services' %>
+        
+        <h2 id="goodrecipe1"> Contents:</h2>
+        
+        <ol>
+            <li><a href="#goodrecipe">Recipe #1</a></li>
+            <li><a href="#goodrecipe0">Recipe #2</a></li>
+            <li><a href="#goodrecipe00">Recipe #3</a></li>
+        </ol>
+        
+        <h2 id="goodrecipe">Recipe #1</h2>
+        
+        <ul id="goodrecipe">
+            <li>Time: 8am</li>
+            <li>Serves: Recipe 1</li>
+            <li>Foods: Rice</li>
+        </ul>
+        
+         <h2 id="goodrecipe0">Recipe #2</h2>
+        
+        <ul id="goodrecipe0">
+            <li>Time: 9am</li>
+            <li>Serves: Recipe 2</li>
+            <li>Foods: Beans</li>
+        </ul>
+        
+         <h2 id="goodrecipe00">Recipe #3</h2>
+        
+        <ul id="goodrecipe00">
+            <li>Time: 10am</li>
+            <li>Serves: Recipe 3</li>
+            <li>Foods: Egusi Soup</li>
+        </ul>
+        
+        <table class="zion1">
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                    <th>Weight</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Rice</td>
+                <td>Super</td>
+                <td>10kg</td>
+                <td>$10</td>
+            </tr>
+            
+            <tr>
+                <td>Beans</td>
+                <td>Super</td>
+                <td>20kg</td>
+                <td>$20</td>
+            </tr>
+            
+            <tr>
+                <td>Egusi Soup</td>
+                <td>Super</td>
+                <td>10kg</td>
+                <td>$30</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <img src="https://www.kasandbox.org/programming-images/avatars/avatar-team.png" height="200" alt="pix" width="400">
+        <img src="https://www.kasandbox.org/programming-images/avatars/avatar-team.png" height="200" alt="pix" width="400">
+        <img src="https://www.kasandbox.org/programming-images/avatars/avatar-team.png" height="200" alt="pix" width="400">
+        
+        <p id="goodrecipe2"><strong>Step 1:</strong> Do something.
+</p>
+        
+    <p><em>Source: <a href="#goodrecipe1">Some recipes websites</a></em></p>
+
+<%= link_to 'Home', 'home' %>
+<%= link_to 'About', 'about' %>
+<%= link_to 'Services', 'services' %>
+    
+    </body>
+</html>
+
