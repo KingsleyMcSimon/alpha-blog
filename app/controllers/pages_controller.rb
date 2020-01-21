@@ -1,19 +1,11 @@
+# frozen_string_literal: true
+
 class PagesController < ApplicationController
+  def home; end
 
-    def home
+  def about; end
 
-    end
+  def faq; end
 
-    def about
-
-    end
-
-    def faq
-
-    end
-
-    def services
-
-    end
-
+  def services; end
 end
