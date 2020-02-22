@@ -8,5 +8,8 @@ Rails.application.routes.draw do
   get 'pages/faq', to: 'pages#faq'
   get 'pages/services', to: 'pages#services'
 
+  root 'pages#home'
+  
+
   resources :articles
 end
